@@ -74,7 +74,7 @@ This Tool Must Run As ROOT !!!
 
 git clone https://github.com/hackyshadab/Hacksha
 
-cd hacksha
+cd Hacksha
 
 chmod +x install.sh
 
@@ -91,15 +91,12 @@ pkg install python
 
 git clone https://github.com/hackyshadab/Hacksha
 
-cd hacksha
+cd Hacksha
 
-chmod +x hacksha.py
+chmod +x Hacksha.py
 
-python2 hacksha.py
+python2 Hacksha.py
 
-
-License :
-MIT Licence
 
 That's It... If You Like This Repo. Please Share This With Your Friends..
 
