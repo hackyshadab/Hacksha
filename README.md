@@ -80,7 +80,9 @@ chmod +x install.sh
 
 ./install.sh
 
-That's it.. you can execute tool by typing hacksha
+python hacksha.py
+
+That's it.. 
 
 Installation in Android :
 Open Termux
