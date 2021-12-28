@@ -33,17 +33,17 @@ read INPUT
 echo ""
 
 if [ "$PREFIX" = "/data/data/com.termux/files/usr" ]; then
-    INSTALL_DIR="$PREFIX/usr/share/doc/hacktronian"
+    INSTALL_DIR="$PREFIX/usr/share/doc/hacksha"
     BIN_DIR="$PREFIX/usr/bin/"
     pkg install -y git python2
 else
-    INSTALL_DIR="/usr/share/doc/hacktronian"
+    INSTALL_DIR="/usr/share/doc/hacksha"
     BIN_DIR="/usr/bin/"
 fi
 
 echo "[✔] Checking directories...";
 if [ -d "$INSTALL_DIR" ]; then
-    echo "[!] A Directory hacktronian Was Found.. Do You Want To Replace It ? [y/n]:" ;
+    echo "[!] A Directory hacksha Was Found.. Do You Want To Replace It ? [y/n]:" ;
     read mama
     if [ "$mama" = "y" ]; then
         rm -R "$INSTALL_DIR"
@@ -54,12 +54,12 @@ fi
 
 echo "[✔] Installing ...";
 echo "";
-git clone https://github.com/thehackingsage/hacktronian.git "$INSTALL_DIR";
+git clone git clone https://github.com/hackyshadab/Hacksha.git "$INSTALL_DIR";
 echo "#!/bin/bash
-python $INSTALL_DIR/hacktronian.py" '${1+"$@"}' > hacktronian;
-chmod +x hacktronian;
-sudo cp hacktronian /usr/bin/;
-rm hacktronian;
+python $INSTALL_DIR/HackSha.py" '${1+"$@"}' > HackSha;
+chmod +x HackSha;
+sudo cp HackSha /usr/bin/;
+rm HackSha;
 
 
 if [ -d "$INSTALL_DIR" ] ;
