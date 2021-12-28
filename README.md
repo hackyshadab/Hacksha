@@ -91,7 +91,7 @@ Hacksha Framework supports all unix based operating Systems
 ```
 ***
 
-## HACKSHA Menu :
+## HackSha Menu :
 
 - Information Gathering
 - Password Attacks
