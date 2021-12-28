@@ -32,7 +32,7 @@ os.system('clear')
 def menu():
     print ("""
 MIT License
-Copyright (c) 2018 HACKTRONIAN
+Copyright (c) 2020 HACKSHA by SHADAB
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -67,28 +67,23 @@ no = set(['no', 'n'])
 def logo():
     print """
                            - Powered by
- ___  ___       _____  ___  _____  _____ 
-|  \/  |      /  ___|/ _ \|  __ \|  ___|
-| .  . |_ __  \ `--./ /_\ \ |  \/| |__  
-| |\/| | '__|  `--. \  _  | | __ |  __| 
-| |  | | |_   /\__/ / | | | |_\ \| |___ 
-\_|  |_/_(_)  \____/\_| |_/\____/\____/ 
+ __  __        ____  _   _    _    ____    _    ____  
+|  \/  |_ __  / ___|| | | |  / \  |  _ \  / \  | __ ) 
+| |\/| | '__| \___ \| |_| | / _ \ | | | |/ _ \ |  _ \ 
+| |  | | | _   ___) |  _  |/ ___ \| |_| / ___ \| |_) |
+|_|  |_|_|(_) |____/|_| |_/_/   \_\____/_/   \_\____/
 """
 
 
 
 hackshalogo = """\033[0m
-                                ____,,,____     
-||      ||              ||  /   |  __        | |
-||      ||              || /    | |_____     | |  
-||      || ____   _____ ||/     \_________   | |____,,___   ______   
-||------||/     \/  __  ||           __   \  | |______   \ /      |
-||      ||   -  |  |    ||\\       ____|   |  | |      \   |   _   |               
-||      ||  (_| |  |__  || \\              |  | |       |  |  (_|  |
-||      ||\__,__|\_____ ||  \\  ____'''____|  | |       |  |\__,,__|___
-                                                                        THE ULTIMATE SOURCE OF HACKING 
-                                                                            -----POWERED BY SHADAB THE HACKER........
-
+ _   _            _     ____  _           
+| | | | __ _  ___| | __/ ___|| |__   __ _ 
+| |_| |/ _` |/ __| |/ /\___ \| '_ \ / _` |
+|  _  | (_| | (__|   <  ___) | | | | (_| |
+|_| |_|\__,_|\___|_|\_\|____/|_| |_|\__,_|
+                                          THE ULTIMATE SOURCE OF HACKING 
+                                            -----POWERED BY SHADAB THE HACKER........
  \033[91m"""
 def menu():
     print (hackshalogo + """\033[1m
@@ -137,7 +132,7 @@ def updatehacksha():
     print ("This Tool is Only Available for Linux and Similar Systems. ")
     choiceupdate = raw_input("Continue Y / N: ")
     if choiceupdate in yes:
-        os.system("git clone https://github.com/thehackingsage/hacktronian.git")
+        os.system("git clone https://github.com/hackyshadab/Hacksha.git")
         os.system("cd hacksha && sudo bash ./update.sh")
         os.system("hacksha")
 
