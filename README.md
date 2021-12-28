@@ -190,7 +190,7 @@ Hacksha Framework supports all unix based operating Systems
 
 > apt-get install git -y
 
-> git clone https://github.com/hackyshadab/Hacksha
+> git clone https://github.com/hackyshadab/Hacksha.git
 
 > cd Hacksha
 
