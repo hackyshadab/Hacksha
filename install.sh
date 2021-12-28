@@ -53,10 +53,10 @@ echo "[✔] Installing ...";
 echo "";
 git clone git clone https://github.com/hackyshadab/Hacksha.git "$INSTALL_DIR";
 echo "#!/bin/bash
-python $INSTALL_DIR/HackSha.py" '${1+"$@"}' > HackSha;
-chmod +x HackSha;
-sudo cp HackSha /usr/bin/;
-rm HackSha;
+python $INSTALL_DIR/hackSha.py" '${1+"$@"}' > Hacksha;
+chmod +x Hacksha;
+sudo cp Hacksha /usr/bin/;
+rm Hacksha;
 
 
 if [ -d "$INSTALL_DIR" ] ;
