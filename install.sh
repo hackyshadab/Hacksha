@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 
 BLACK='\e[30m'
@@ -10,15 +11,18 @@ CYAN='\e[36m'
 WHITE='\e[37m'
 NC='\e[0m'
 echo""
-echo -e "${RED}   _   _            _     ____  _    "
-echo"  | | | | __ _  ___| | __/ ___|| |__   __ _   "
-echo"  | |_| |/ _` |/ __| |/ /\___ \| '_ \ / _` |  " 
-echo"  |  _  | (_| | (__|   <  ___) | | | | (_| |  "
-echo"  |_| |_|\__,_|\___|_|\_\|____/|_| |_|\__,_|  "
-
-echo -e "${RED}                                                      ~ Tools for Hacking by Mr. SHADAB The Hacker ${NC}"
+echo -e "${RED} '##::::'##::::'###:::::'######::'##:::'##::'######::'##::::'##::::'###::::"
+echo " ##:::: ##:::'## ##:::'##... ##: ##::'##::'##... ##: ##:::: ##:::'## ##::: "
+echo " ##:::: ##::'##:. ##:: ##:::..:: ##:'##::: ##:::..:: ##:::: ##::'##:. ##:: "
+echo " #########:'##:::. ##: ##::::::: #####::::. ######:: #########:'##:::. ##: "
+echo " ##.... ##: #########: ##::::::: ##. ##::::..... ##: ##.... ##: #########: "
+echo " ##:::: ##: ##.... ##: ##::: ##: ##:. ##::'##::: ##: ##:::: ##: ##.... ##: "
+echo " ##:::: ##: ##:::: ##:. ######:: ##::. ##:. ######:: ##:::: ##: ##:::: ##: "
+echo "..:::::..::..:::::..:::......:::..::::..:::......:::..:::::..::..:::::..:: "
+echo -e "${RED}                                            THE ULTIMATE SOURCE OF HACKING FOR ANDROID "
+echo -e "${RED}                                                      -----POWERED BY SHADAB THE HACKER........ ${NC}"
 echo ""
-echo -e "${YELLOW} Instagram.com/iam_s_king | Github.com/hackyshadab ${NC} "
+echo -e "${YELLOW} Instagram.com/iam__s__king | Github.com/hackyshadab ${NC} "
 echo ""
 echo "---------------------------------------------------------------------------------------"
 echo ""
@@ -29,17 +33,17 @@ read INPUT
 echo ""
 
 if [ "$PREFIX" = "/data/data/com.termux/files/usr" ]; then
-    INSTALL_DIR="$PREFIX/usr/share/doc/hacksha"
+    INSTALL_DIR="$PREFIX/usr/share/doc/Hacksha"
     BIN_DIR="$PREFIX/usr/bin/"
     pkg install -y git python2
 else
-    INSTALL_DIR="/usr/share/doc/hacksha"
+    INSTALL_DIR="/usr/share/doc/Hacksha"
     BIN_DIR="/usr/bin/"
 fi
 
 echo "[✔] Checking directories...";
 if [ -d "$INSTALL_DIR" ]; then
-    echo "[!] A Directory hacksha Was Found.. Do You Want To Replace It ? [y/n]:" ;
+    echo "[!] A Directory Hacksha Was Found.. Do You Want To Replace It ? [y/n]:" ;
     read mama
     if [ "$mama" = "y" ]; then
         rm -R "$INSTALL_DIR"
@@ -50,9 +54,9 @@ fi
 
 echo "[✔] Installing ...";
 echo "";
-git clone git clone https://github.com/hackyshadab/Hacksha.git "$INSTALL_DIR";
+git clone https://github.com/hackyshadab/Hacksha.git "$INSTALL_DIR";
 echo "#!/bin/bash
-python $INSTALL_DIR/hackSha.py" '${1+"$@"}' > Hacksha;
+python $INSTALL_DIR/Hacksha.py" '${1+"$@"}' > Hacksha;
 chmod +x Hacksha;
 sudo cp Hacksha /usr/bin/;
 rm Hacksha;
@@ -64,7 +68,7 @@ then
     echo "[✔] Successfuly Installed !!! [✔]";
     echo "";
     echo "[✔]========================================================================[✔]";
-    echo "[✔] ✔✔✔ All Is Done!! you can execute tool by typing hacksha !! ✔✔✔ [✔]";
+    echo "[✔] ✔✔✔ All Is Done!! you can execute tool by typing Hacksha !! ✔✔✔ [✔]";
     echo "[✔]========================================================================[✔]";
     echo "";
 else
