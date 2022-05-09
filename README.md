@@ -101,7 +101,7 @@ Hacksha Framework supports all unix based operating Systems
 - Web Hacking
 - Private Web Hacking
 - Post Exploitation
-- Install The HACKTRONIAN
+- Install The HACKSHA
 
 ### Information Gathering:
 
