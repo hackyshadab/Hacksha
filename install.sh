@@ -21,7 +21,8 @@ echo " ##:::: ##: ##:::: ##:. ######:: ##::. ##:. ######:: ##:::: ##: ##:::: ##:
 echo "..:::::..::..:::::..:::......:::..::::..:::......:::..:::::..::..:::::..:: "
 echo -e "${RED}                                            THE ULTIMATE SOURCE OF HACKING FOR ANDROID "
 echo -e "${RED}                                                      -----POWERED BY SHADAB THE HACKER........ ${NC}"
-echo ""
+echo ""                                                   
+
 echo -e "${YELLOW} Instagram.com/iam__s__king | Github.com/hackyshadab ${NC} "
 echo ""
 echo "---------------------------------------------------------------------------------------"
@@ -44,8 +45,8 @@ fi
 echo "[✔] Checking directories...";
 if [ -d "$INSTALL_DIR" ]; then
     echo "[!] A Directory Hacksha Was Found.. Do You Want To Replace It ? [y/n]:" ;
-    read mama
-    if [ "$mama" = "y" ]; then
+    read shadab
+    if [ "$shadab" = "y" ]; then
         rm -R "$INSTALL_DIR"
     else
         exit
@@ -74,4 +75,3 @@ then
 else
     echo "[✘] Installation Failed !!! [✘]";
     exit
-fi
